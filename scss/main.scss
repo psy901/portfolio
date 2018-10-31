@@ -1,9 +1,11 @@
 @import 'config';
 @import 'menu';
+@import 'mobile';
 
 * {
   box-sizing: border-box;
 }
+
 body {
   @include background;
   background: $primary-color;
